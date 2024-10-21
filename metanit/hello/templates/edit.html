@@ -2,8 +2,19 @@
 <head>
     <link rel="stylesheet" href="{% static 'hello/styles.css' %}">
 </head>
-<body class="bg-sky-500" >
-    <h1>This is NOT ME</h1>
+<body >
+    <nav>
+      <div>
+        <div>
+          <div>
+            <div class="flex">
+              <img class="h-8" src="{% static 'hello/images/shop.png' %}" alt="logo">
+              <span class="text-xl">SHOP</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
     
     <h2>
         {% for item in items  %}
